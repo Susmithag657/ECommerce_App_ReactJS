@@ -1,84 +1,108 @@
 {
-"products":[
-  {
-   "id":1,
-   "title":"Tune 215Bsf",
-   "price":"1000",
-   "color":"Black",
-   "image":"Images/id1.jpg",
-   "type":"In Ear",
-   "brand":"JBL",
-   "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac facilisis nibh. Nullam vitae volutpat massa, quis tincidunt massa. Donec vestibulum, enim a iaculis commodo, ex turpis rhoncus purus, faucibus enim arcu at turpis. Integer pulvinar rutrum risus in accumsan. Proin pretium arcu turpis pulvinar facilisis. Curabitur at purus vitae velit sollicitudin varius. Nam et condimentum tellus. Quisque quis velit neque. Fusce  vehicula lorem,  eleifend augue. Aenean venenatis leo massa, sed maximus metus suscipit sit amet. Morbi venenatis dolor nibh, nec dapibus magna molestie eu. Quisque posuere nisi nec suscipit rutrum."
-  },
-  {
-    "id":2,
-    "title":"Boat",
-    "price":"500",
-    "color":"Black",
-    "image":"Images/id2.jpg",
-    "type":"Wired",
-    "brand":"Boat",
-    "description":"Integer in dui lorem. Morbi rhoncus porttitor metus ornare fringilla. Quisque facilisis, massa sit amet elementum ullamcorper, mi nibh laoreet augue, sed scelerisque ligula urna vel lacus. In elementum ac diam in sollicitudin. Ut mattis velit ante, non sagittis leo luctus quis. Nam mollis cursus arcu et convallis. Ut ut neque in ante placerat ullamcorper. Aliquam quis magna lorem. Integer volutpat massa non rutrum hendrerit."
-   },
-   {
-    "id":3,
-    "title":"Boult Audio",
-    "price":"700",
-    "color":"Red",
-    "image":"Images/id3.jpg",
-    "type":"Wired",
-    "brand":"Bassbuds",
-    "description":"Mauris a lorem ac tellus varius pharetra. Maecenas pharetra gravida turpis, ut euismod ipsum consectetur consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Integer varius fringilla nulla, et finibus ipsum tempus at. Praesent dapibus rutrum interdum. Sed aliquet fermentum dapibus. In pellentesque magna luctus tellus dignissim rutrum ligula imperdiet. Nunc dignissim leo lacus, vitae placerat purus consequat at. "
-   },
-   {
-     "id":4,
-    "title":"Bassheads 152",
-    "price":"900",
-    "color":"Maroon Mirage",
-    "image":"Images/id4.jpg",
-    "type":"Wired In Ear",
-    "brand":"Boat",
-    "description":" Quisque iaculis eros ac ultrices blandit. Duis eleifend neque sit amet turpis blandit sagittis. Aliquam sit amet tortor ipsum. Curabitur pellentesque odio sem, at fringilla metus aliquam sit amet. Donec dignissim egestas eros in semper. Vivamus vehicula mi tristique, tristique dui at, vulputate metus. Suspendisse gravida lacus non bibendum placerat."
-   },
-   {
-     "id":5,
-    "title":"JBL Tune 700BT",
-    "price":"3000",
-    "color":"Black",
-    "image":"Images/id5.jpg",
-    "type":"Bluetooth OverEar",
-    "brand":"JBL",
-    "description":"Cras congue tristique nisi quis blandit. Etiam a accumsan metus. Nulla et eleifend lacus. Donec ut cursus ex. Fusce vulputate rutrum placerat. Donec leo purus, molestie sit amet condimentum ac, pretium et elit. Sed congue tellus velit consequat mollis. Vestibulum ornare tristique odio vitae gravida. In arcu felis, pretium rutrum condimentum eu, pharetra et elit. Nam vestibulum lectus diam, quis convallis tortor sollicitudin ultricies."
-   },
-   {
-     "id":6,
-    "title":"Boult Audio Bass Buds Q2",
-    "price":"1500",
-    "color":"Black",
-    "image":"Images/id6.jpg",
-    "type":"Bluetooth OverEar",
-    "brand":"Boult Audio",
-    "description":"Cras sed velit at tellus placerat mattis nec vitae ante. Curabitur porta tellus eget augue malesuada cursus. Praesent vehicula libero dolor, vel maximus quam malesuada eget. Quisque eget sapien non ante suscipit tempor vitae nisi. Aenean a pulvinar orci, quis condimentum erat. Sed fringilla ut sapien sollicitudin aliquet."
-   },
-   {
-    "id":7,
-    "title":"pTron Studio",
-    "price":"2500",
-    "color":"Black",
-    "image":"Images/id7.jpg",
-    "type":"Bluetooth OverEar",
-    "brand":"Ptron",
-    "description":"Aliquam et urna mattis, condimentum urna , vehicula massa. Sed non mauris eleifend augue facilisis tempus. Cras eget ullamcorper erat, eu ullamcorper eros. Phasellus ex urna, auctor ut pretium quis, blandit sit amet felis. Nullam sit amet aliquet ligula. Phasellus viverra tortor ut elit lobortis vehicula. Aenean feugiat risus lobortis, rhoncus lectus sit amet, suscipit enim."
-   },
-   {
-    "id":8 ,
-    "title":"Zebronics Zeb-Thunder",
-    "price":"2000",
-    "color":"Red",
-    "image":"Images/id8.jpg",
-    "type":"Bluetooth OverEar",
-    "brand":"Zebronics",
-    "description":"Nullam luctus ac mi nec semper. In hac habitasse platea dictumst. Vestibulum tempus est vitae aliquet pellentesque. Morbi sed laoreet nibh. Aliquam eget dapibus elit, sit amet iaculis mi. Cras posuere faucibus pulvinar. Phasellus non purus sed est iaculis aliquet quis sit amet nibh. Nam quam odio, vestibulum eget nulla at, convallis blandit dui. Pellentesque lobortis lacus arcu, a iaculis est gravida sed. Etiam nec tortor volutpat, lacinia arcu et, posuere nisi. Proin pretium, eros et placerat dictum, dui quam commodo metus, sit amet condimentum leo dui non mi."
-   }
-]
+  "products": [
+    {
+      "id": 1,
+      "title": "Tune 215Bsf",
+      "price": 1000,
+      "color": "Black",
+      "image": "Images/id1.jpg",
+      "type": "In Ear",
+      "brand": "JBL",
+      "inCart": "false",
+      "count": 0,
+      "total": 0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac facilisis nibh. Nullam vitae volutpat massa, quis tincidunt massa. Donec vestibulum, enim a iaculis commodo, ex turpis rhoncus purus, faucibus enim arcu at turpis. Integer pulvinar rutrum risus in accumsan. Proin pretium arcu turpis pulvinar facilisis. Curabitur at purus vitae velit sollicitudin varius. Nam et condimentum tellus. Quisque quis velit neque. Fusce  vehicula lorem,  eleifend augue. Aenean venenatis leo massa, sed maximus metus suscipit sit amet. Morbi venenatis dolor nibh, nec dapibus magna molestie eu. Quisque posuere nisi nec suscipit rutrum."
+    },
+    {
+      "id": 2,
+      "title": "Boat",
+      "price": 500,
+      "color": "Black",
+      "image": "Images/id2.jpg",
+      "type": "Wired",
+      "brand": "Boat",
+      "inCart": "false",
+      "count": 0,
+      "total": 0,
+      "description": "Integer in dui lorem. Morbi rhoncus porttitor metus ornare fringilla. Quisque facilisis, massa sit amet elementum ullamcorper, mi nibh laoreet augue, sed scelerisque ligula urna vel lacus. In elementum ac diam in sollicitudin. Ut mattis velit ante, non sagittis leo luctus quis. Nam mollis cursus arcu et convallis. Ut ut neque in ante placerat ullamcorper. Aliquam quis magna lorem. Integer volutpat massa non rutrum hendrerit."
+    },
+    {
+      "id": 3,
+      "title": "Boult Audio",
+      "price": 700,
+      "color": "Red",
+      "image": "Images/id3.jpg",
+      "type": "Wired",
+      "brand": "Bassbuds",
+      "inCart": "false",
+      "count": 0,
+      "total": 0,
+      "description": "Mauris a lorem ac tellus varius pharetra. Maecenas pharetra gravida turpis, ut euismod ipsum consectetur consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Integer varius fringilla nulla, et finibus ipsum tempus at. Praesent dapibus rutrum interdum. Sed aliquet fermentum dapibus. In pellentesque magna luctus tellus dignissim rutrum ligula imperdiet. Nunc dignissim leo lacus, vitae placerat purus consequat at. "
+    },
+    {
+      "id": 4,
+      "title": "Bassheads 152",
+      "price": 900,
+      "color": "Maroon Mirage",
+      "image": "Images/id4.jpg",
+      "type": "Wired In Ear",
+      "brand": "Boat",
+      "inCart": "false",
+      "count": 0,
+      "total": 0,
+      "description": " Quisque iaculis eros ac ultrices blandit. Duis eleifend neque sit amet turpis blandit sagittis. Aliquam sit amet tortor ipsum. Curabitur pellentesque odio sem, at fringilla metus aliquam sit amet. Donec dignissim egestas eros in semper. Vivamus vehicula mi tristique, tristique dui at, vulputate metus. Suspendisse gravida lacus non bibendum placerat."
+    },
+    {
+      "id": 5,
+      "title": "JBL Tune 700BT",
+      "price": 3000,
+      "color": "Black",
+      "image": "Images/id5.jpg",
+      "type": "Bluetooth OverEar",
+      "brand": "JBL",
+      "inCart": "false",
+      "count": 0,
+      "total": 0,
+      "description": "Cras congue tristique nisi quis blandit. Etiam a accumsan metus. Nulla et eleifend lacus. Donec ut cursus ex. Fusce vulputate rutrum placerat. Donec leo purus, molestie sit amet condimentum ac, pretium et elit. Sed congue tellus velit consequat mollis. Vestibulum ornare tristique odio vitae gravida. In arcu felis, pretium rutrum condimentum eu, pharetra et elit. Nam vestibulum lectus diam, quis convallis tortor sollicitudin ultricies."
+    },
+    {
+      "id": 6,
+      "title": "Boult Audio Bass Buds Q2",
+      "price": 1500,
+      "color": "Black",
+      "image": "Images/id6.jpg",
+      "type": "Bluetooth OverEar",
+      "brand": "Boult Audio",
+      "inCart": "false",
+      "count": 0,
+      "total": 0,
+      "description": "Cras sed velit at tellus placerat mattis nec vitae ante. Curabitur porta tellus eget augue malesuada cursus. Praesent vehicula libero dolor, vel maximus quam malesuada eget. Quisque eget sapien non ante suscipit tempor vitae nisi. Aenean a pulvinar orci, quis condimentum erat. Sed fringilla ut sapien sollicitudin aliquet."
+    },
+    {
+      "id": 7,
+      "title": "pTron Studio",
+      "price": 2500,
+      "color": "Black",
+      "image": "Images/id7.jpg",
+      "type": "Bluetooth OverEar",
+      "brand": "Ptron",
+      "inCart": "false",
+      "count": 0,
+      "total": 0,
+      "description": "Aliquam et urna mattis, condimentum urna , vehicula massa. Sed non mauris eleifend augue facilisis tempus. Cras eget ullamcorper erat, eu ullamcorper eros. Phasellus ex urna, auctor ut pretium quis, blandit sit amet felis. Nullam sit amet aliquet ligula. Phasellus viverra tortor ut elit lobortis vehicula. Aenean feugiat risus lobortis, rhoncus lectus sit amet, suscipit enim."
+    },
+    {
+      "id": 8,
+      "title": "Zebronics Zeb-Thunder",
+      "price": 2000,
+      "color": "Red",
+      "image": "Images/id8.jpg",
+      "type": "Bluetooth OverEar",
+      "brand": "Zebronics",
+      "inCart": "false",
+      "count": 0,
+      "total": 0,
+      "description": "Nullam luctus ac mi nec semper. In hac habitasse platea dictumst. Vestibulum tempus est vitae aliquet pellentesque. Morbi sed laoreet nibh. Aliquam eget dapibus elit, sit amet iaculis mi. Cras posuere faucibus pulvinar. Phasellus non purus sed est iaculis aliquet quis sit amet nibh. Nam quam odio, vestibulum eget nulla at, convallis blandit dui. Pellentesque lobortis lacus arcu, a iaculis est gravida sed. Etiam nec tortor volutpat, lacinia arcu et, posuere nisi. Proin pretium, eros et placerat dictum, dui quam commodo metus, sit amet condimentum leo dui non mi."
+    }
+  ]
 }
