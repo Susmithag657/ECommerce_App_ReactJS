@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ProductsContext } from "./Context";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const Item = (props) => {
   const {
@@ -30,7 +30,7 @@ const Item = (props) => {
     <>
       <ItemWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
         <div className="card">
-          <div className="img-container">
+          <div className="img-container" onClick={() => value.handleDetail(id)}>
             <Link to={`details/${id}`}>
               <img
                 className="card-img-top img-fluid z-depth-2"
@@ -42,22 +42,15 @@ const Item = (props) => {
           </div>
           <div className="card-body">
             <h5 className="d-flex justify-content-center">Rs {price}</h5>
-            <Button>
+            <Button
+              onClick={() => {
+                value.addToCart(id);
+                value.openModal(id);
+              }}
+            >
               <i className="fas fa-shopping-cart pr-2"></i> Add to Cart
             </Button>
-            {value.wishList.includes(id) ? (
-              <Link onClick={addToWishList(id)}>
-                <span>
-                  <i className="fas fa-heart"></i>
-                </span>
-              </Link>
-            ) : (
-              <Link onClick={addToWishList(id)}>
-                <span>
-                  <i className="far fa-heart"></i>
-                </span>
-              </Link>
-            )}
+
             <div></div>
           </div>
         </div>
@@ -66,14 +59,14 @@ const Item = (props) => {
   );
 };
 
-Item.propTypes={
-  product:PropTypes.shape({
-id:PropTypes.number,
-img:PropTypes.string,
-title:PropTypes.string,
-price:PropTypes.number
+Item.propTypes = {
+  product: PropTypes.shape({
+    id: PropTypes.number,
+    img: PropTypes.string,
+    title: PropTypes.string,
+    price: PropTypes.number
   })
-}
+};
 const ItemWrapper = styled.div`
   .card {
     border-color: transparent;
@@ -82,18 +75,22 @@ const ItemWrapper = styled.div`
   &:hover {
     .card {
       border: 0.2rem 0.2rem 0.2rem solid rgba(0, 0, 0, 0.2);
-      box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
   }
   .card-img-top {
     transition: all 0.5s linear;
-    padding-left:40px;
-    justify-content:center;
-    width:80%;
-    height:80%;
+    padding-left: 40px;
+    justify-content: center;
+    width: 80%;
+    height: 10rem;
   }
+  img {
+    width: 20rem;
+}
   .img-container {
-    justify-content:center;
+    justify-content: center;
     position: relative;
     overflow: hidden;
   }

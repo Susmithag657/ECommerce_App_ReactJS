@@ -7,8 +7,8 @@ import Item from "./Components/Item";
 import Details from "./Components/Details";
 import ProductProvider from "./Components/Context";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CartPage from "./Components/CartPage";
-
+import CartPage from "./Components/Cart/CartPage";
+import Modal from "./Components/Modal";
 export default function App() {
   return (
     <ProductProvider>
@@ -21,6 +21,7 @@ export default function App() {
             <Route path="/cart" component={CartPage} />
             <Route path="/item/:id" component={Item} />
           </Switch>
+          <Modal />
         </Router>
       </div>
     </ProductProvider>

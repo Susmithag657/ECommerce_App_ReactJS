@@ -22,13 +22,16 @@ const NavBar = () => {
             aria-label="Toggle navigation"
           >
             <span>
-            <i className="fas fa-chevron-circle-down"></i>
+              <i className="fas fa-chevron-circle-down"></i>
             </span>
           </Button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ml-auto">
               <Link className="nav-link active" aria-current="page" to="#">
                 Home
+              </Link>
+              <Link className="nav-link active" aria-current="page" to="/cart">
+                My Cart
               </Link>
             </div>
           </div>
@@ -47,7 +50,6 @@ const rotate = keyframes`
   }
 `;
 const Button = styled.button`
-  background: palevioletred;
   color: white !important;
 
   &:hover {
@@ -56,7 +58,14 @@ const Button = styled.button`
 `;
 
 const Nav = styled.nav`
-  background-color: palevioletred;
+  background: rgb(61, 56, 56);
+  background: linear-gradient(
+    56deg,
+    rgba(61, 56, 56, 1) 1%,
+    rgba(222, 44, 134, 1) 47%,
+    rgba(222, 44, 134, 1) 60%,
+    rgba(55, 26, 37, 1) 100%
+  );
   .navbar-brand {
     margin-left: 1.3rem;
     color: whitesmoke;
